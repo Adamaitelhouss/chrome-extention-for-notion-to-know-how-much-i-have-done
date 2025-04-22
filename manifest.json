@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "nigga you way too late",
+    "version": "1.0",
+    "description": "Displays real-time checkbox statistics on Notion pages.",
+    "content_scripts": [
+      {
+        "matches": ["https://www.notion.so/*"],
+        "js": ["script.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "permissions": []
+  }
